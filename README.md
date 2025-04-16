@@ -15,7 +15,7 @@ Evaluate the candidate’s skills in iOS development, API integration, user expe
 > *🤝 Disclaimer*
 > Kwema does NOT claim any rights over the code written as part of this technical challenge. You are free to keep working on your solution, improve it, or even publish it independently if you believe it has potential.
 
-> Who knows — this might be the first version of an app that makes it all the way to your App Store.
+> Who knows — this might be the first version of an app that makes it all the way to your App Store Portfolio.
 
 # Challenge
 
