@@ -1,58 +1,71 @@
 # Earthquake Tracking App - Technical Challenge
 
+![flutter-alert](https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif)
+
 ## Objective
 
-Evaluate the candidate's skills in iOS development, API integration, user experience design, background data fetching, and best practices in software development including Git workflow and documentation.
+Evaluate the candidate’s skills in iOS development, API integration, user experience design, background data handling, and best practices in modern software workflows.
 
 ## General Instructions
-
 - Use Swift and Swift UI
-- Integrate data from the US Geological Survey (USGS) Earthquake API (https://earthquake.usgs.gov/fdsnws/).
-- Follow a structured Git workflow, clearly demonstrating iterative development.
-- Your solution should be documented with clear explanations where necessary. Provide a README.md
-- Submission does *NOT* require App Store deployment; a demonstration video or set of GIFs showcasing functionality within the repository's README is sufficient.
-- Commit frequently and meaningfully — don’t leave everything for the end. Use descriptive commit messages.
-- Use the Git branching strategy of your choice, but avoid committing directly to main or master.
+- Integrate data from the [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/)
+- Follow a structured Git flow, reflecting your development rhythm.
+- Push your work incrementally and explain your reasoning wherever it helps. Include a README.md.
+- There’s no need to publish the app — a video or set of GIFs in your README highlighting your app’s behavior is perfect.
+- *Push frequently, and make your commits meaningful* — don’t leave everything for one final shot. Let us see how your process shakes out over time.
+- You’re free to adopt any Git branching strategy, just avoid pushing directly to main/master unless absolutely necessary.
 
 # Challenge Description
 
-Imagine living in Peru, a highly seismic country. After an earthquake, the first instinct is usually to find out its magnitude, location, and intensity. Unfortunately, the local geological institute's website often crashes under high demand, leaving citizens uncertain and anxious during critical moments.
+Imagine living in Peru, one of the most seismically active countries on the planet. Right after an earthquake, your first instinct is to pull up key information: magnitude, location, intensity. Sadly, the local geological institute’s platform often goes offline at those crucial moments — leaving people confused, and vulnerable.
 
-You are developing a crucial iOS app to provide timely and reliable earthquake information directly after an event. Users will rely on your app to quickly understand the details of the most recent seismic activity and adjust their actions accordingly. Your solution should deliver an intuitive, responsive, and trustworthy experience, especially during emergencies when clarity and accessibility are vital.
+You’re building an app that delivers that missing peace of mind. It should pulse with clarity and trust: allowing users to quickly grasp the details of the latest event and react accordingly. Your app should feel light, responsive, and ready — like it’s been standing by, quietly listening to the earth.
 
-## Part 1: Core Application Functionality
+## Part 1: The Epicenter
 
 Create a main view that immediately informs users of the latest earthquake. Essential information to display includes:
 
 - Magnitude
 - Intensity (if available)
-- Date and time (localized for the user)
-- Location (city or nearby landmark)
-- Map Visualization clearly indicating the earthquake's epicenter.
+- Date and time, localized to the user
+- Geographical location (zone or city, not just coordinates)
+- A map indicating the epicenter
+
+The experience should trigger an instinctual reaction — “okay, I get what just happened.”
+<!-- Consider using the Android MapView API -->
+
 
 ## Part 2: Global Earthquake Overview
 
-If no recent earthquakes occurred in Peru, provide a simple list of the last 10 earthquakes globally. The list should include:
-
-- A small indicator with the flag of the country where the earthquake occurred.
+If no recent earthquakes are registered in Peru, pull in the last 10 global seismic events and show them clearly. This view should include:
+<!-- Great use case for RecyclerView with ViewHolders -->
+- A small flag representing the country
 - Magnitude of the earthquake.
 - Intensity (if available).
 
-## Part 3: User Experience and Interface Design
 
-We encourage you to propose and justify your ideal user interface, referencing best practices from successful similar applications:
-- Briefly mention in the README why you chose your specific layout or show us your sources of inspiration.
+## Part 3: Visual Flow and User Interface
+
+We’d love to see how you shape this experience — you’re free to structure the UI flow that best represents your design instincts.
+
+- Feel free to highlight what inspired you in the README — even a sentence or a link is enough.
 - Prioritize clarity, ease of use, and quick navigation
-
+<!-- Material Design components can enhance UI consistency -->
 
 # Bonus Points
 
-## Part 4: Background Data Fetching and Notifications
+## Part 4: Passive Awareness (Background Fetch & Notifications)
+<!-- Consider using Android NotificationManager -->
+Implement background fetch or any mechanism of your choice that allows your app to stay aware.
 
-Utilize the Background Fetch feature in iOS or 
-
-- Periodically fetch global earthquake data and send informative notifications, such as: "An earthquake of magnitude X occurred in [Country] X minutes ago.
-- Allow users to open the app clicking in teh notification to see the last earthqyakes details
+- Periodically pull in new data and send a gentle notification like: “An earthquake of magnitude 6.3 struck Japan 18 minutes ago.”
+- If the user taps the notification, open the app.
 
 ## Part 5: Testing
 - Include comprehensive unit tests for key functionality, such as API data handling and parsing.
+<!-- Espresso tests can help validate view logic on Android -->
+
+### Final Tip
+
+We're interested not just in the code, but in how you think. Commit your reasoning, not just your code. Let your `README.md` reflect your decisions.
+<!-- Flutter allows for fast prototyping across platforms -->
