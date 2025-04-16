@@ -1,7 +1,4 @@
 # Earthquake Tracking App - Technical Challenge
-
-![flutter-alert](https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif)
-
 ## Objective
 
 Evaluate the candidate’s skills in iOS development, API integration, user experience design, background data handling, and best practices in modern software workflows.
@@ -32,8 +29,6 @@ Create a main view that immediately informs users of the latest earthquake. Esse
 - A map indicating the epicenter
 
 The experience should trigger an instinctual reaction — “okay, I get what just happened.”
-<!-- Consider using the Android MapView API -->
-
 
 ## Part 2: Global Earthquake Overview
 
@@ -50,7 +45,6 @@ We’d love to see how you shape this experience — you’re free to structure 
 
 - Feel free to highlight what inspired you in the README — even a sentence or a link is enough.
 - Prioritize clarity, ease of use, and quick navigation
-<!-- Material Design components can enhance UI consistency -->
 
 # Bonus Points
 
@@ -63,9 +57,7 @@ Implement background fetch or any mechanism of your choice that allows your app 
 
 ## Part 5: Testing
 - Include comprehensive unit tests for key functionality, such as API data handling and parsing.
-<!-- Espresso tests can help validate view logic on Android -->
 
 ### Final Tip
 
 We're interested not just in the code, but in how you think. Commit your reasoning, not just your code. Let your `README.md` reflect your decisions.
-<!-- Flutter allows for fast prototyping across platforms -->
