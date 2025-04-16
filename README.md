@@ -22,7 +22,7 @@ You’re building an app that delivers that missing peace of mind. It should pul
 
 Create a main view that immediately informs users of the latest earthquake. Essential information to display includes:
 
-- Magnitude
+- Ｍаɡnituԁe
 - Intensity (if available)
 - Date and time, localized to the user
 - Geographical location (zone or city, not just coordinates)
