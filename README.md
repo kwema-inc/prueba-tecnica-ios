@@ -56,6 +56,6 @@ Implement background fetch or any mechanism of your choice that allows your app 
 - If the user taps the notification, open the app.
 
 
-### Final Tip
+# Final Tip
 
 We're interested not just in the code, but in how you think. Commit your reasoning, not just your code. Let your `README.md` reflect your decisions.
