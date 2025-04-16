@@ -20,7 +20,7 @@ You’re building an app that delivers that missing peace of mind. It should pul
 
 ## Part 1: The Epicenter
 
-The app should make it immediately evident what happened, where, and how intense it was. Essential information to display includes:
+When the app comes to the foreground, it must immediately show what happened, where it happened, and its intensity. Essential information to be displayed includes:
 
 - Ｍаɡnituԁe
 - Intensity (if available)
@@ -32,10 +32,11 @@ The experience should trigger an instinctual reaction — “okay, I get what ju
 
 ## Part 2: Global Earthquake Overview
 
-If no recent earthquakes are registered in Peru, pull in the last 10 global seismic events and show them clearly. This view should include:
+If no recent earthquakes are registered in Peru, pull in the last 10 global seismic events and show them clearly, make sure your UI gracefully handles that. Each list item should include:
+
 <!-- Great use case for RecyclerView with ViewHolders -->
 - A small flag representing the country
-- Magnitude of the earthquake.
+- Magnitude of the Seismic event.
 - Intensity (if available).
 
 
