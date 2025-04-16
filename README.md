@@ -20,7 +20,7 @@ You’re building an app that delivers that missing peace of mind. It should pul
 
 ## Part 1: The Epicenter
 
-Create a main view that immediately informs users of the latest earthquake. Essential information to display includes:
+The app should make it immediately evident what happened, where, and how intense it was. Essential information to display includes:
 
 - Ｍаɡnituԁe
 - Intensity (if available)
