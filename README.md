@@ -17,7 +17,7 @@ Evaluate the candidate’s skills in iOS development, API integration, user expe
 
 > Who knows — this might be the first version of an app that makes it all the way to your App Store.
 
-# Challenge Description
+# Challenge
 
 Imagine living in Peru, one of the most seismically active countries on the planet. Right after an earthquake, your first instinct is to pull up key information: magnitude, location, intensity. Sadly, the local geological institute’s platform often goes offline at those crucial moments — leaving people confused, and vulnerable.
 
