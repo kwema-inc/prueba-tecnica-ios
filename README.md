@@ -12,6 +12,11 @@ Evaluate the candidate’s skills in iOS development, API integration, user expe
 - *Push frequently, and make your commits meaningful* — don’t leave everything for one final shot. Let us see how your process shakes out over time.
 - You’re free to adopt any Git branching strategy, just avoid pushing directly to main/master unless absolutely necessary.
 
+> *🤝 Disclaimer*
+> Kwema does NOT claim any rights over the code written as part of this technical challenge. You are free to keep working on your solution, improve it, or even publish it independently if you believe it has potential.
+
+> Who knows — this might be the first version of an app that makes it all the way to your App Store.
+
 # Challenge Description
 
 Imagine living in Peru, one of the most seismically active countries on the planet. Right after an earthquake, your first instinct is to pull up key information: magnitude, location, intensity. Sadly, the local geological institute’s platform often goes offline at those crucial moments — leaving people confused, and vulnerable.
