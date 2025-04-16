@@ -4,7 +4,7 @@
 Evaluate the candidate’s skills in iOS development, API integration, user experience design, background data handling, and best practices in modern software workflows.
 
 ## General Instructions
-- Use Swift and Swift UI
+- Use Ѕwift and Ѕwift UI
 - Integrate data from the [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/)
 - Follow a structured Git flow, reflecting your development rhythm.
 - Push your work incrementally and explain your reasoning wherever it helps. Include a README.md.
