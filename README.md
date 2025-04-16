@@ -55,8 +55,6 @@ Implement background fetch or any mechanism of your choice that allows your app 
 - Periodically pull in new data and send a gentle notification like: “An earthquake of magnitude 6.3 struck Japan 18 minutes ago.”
 - If the user taps the notification, open the app.
 
-## Part 5: Testing
-- Include comprehensive unit tests for key functionality, such as API data handling and parsing.
 
 ### Final Tip
 
